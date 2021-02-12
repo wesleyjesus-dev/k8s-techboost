@@ -1,0 +1,8 @@
+
+kind: ConfigMap 
+apiVersion: v1 
+metadata:
+  name: frontend-configmap
+data:
+  NEXT_PUBLIC_FINTECHNAME: CREDITAS
+  NODE_ENV: production
